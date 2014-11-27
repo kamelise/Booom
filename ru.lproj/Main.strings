@@ -1,0 +1,114 @@
+
+/* Class = "IBUILabel"; text = "Команд"; ObjectID = "30e-Qm-Hvd"; */
+"30e-Qm-Hvd.text" = "Команд";
+
+/* Class = "IBUINavigationItem"; title = "Настройки"; ObjectID = "7CV-Rj-0pz"; */
+"7CV-Rj-0pz.title" = "Настройки";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "BWE-mo-7fD"; */
+"BWE-mo-7fD.text" = "Title";
+
+/* Class = "IBUIButton"; normalTitle = "Следующий раунд"; ObjectID = "Bal-gp-H6m"; */
+"Bal-gp-H6m.normalTitle" = "Следующий раунд";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "Bxh-Ff-miG"; */
+"Bxh-Ff-miG.text" = "Detail";
+
+/* Class = "IBUINavigationItem"; title = "Главное меню"; ObjectID = "C6X-ks-56F"; */
+"C6X-ks-56F.title" = "Главное меню";
+
+/* Class = "IBUILabel"; text = "Количество слов:"; ObjectID = "D0H-Xd-hyr"; */
+"D0H-Xd-hyr.text" = "Количество слов:";
+
+/* Class = "IBUILabel"; text = "Длительность раунда:"; ObjectID = "EG0-4u-jOE"; */
+"EG0-4u-jOE.text" = "Длительность раунда:";
+
+/* Class = "IBUIButton"; normalTitle = "Настройки"; ObjectID = "ExL-KO-ZXA"; */
+"ExL-KO-ZXA.normalTitle" = "Настройки";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "I5F-el-ui6"; */
+"I5F-el-ui6.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Играет:                  "; ObjectID = "IPx-eS-IdS"; */
+"IPx-eS-IdS.text" = "Играет:                  ";
+
+/* Class = "IBUILabel"; text = "0:30"; ObjectID = "Jbs-gX-IJk"; */
+"Jbs-gX-IJk.text" = "0:30";
+
+/* Class = "IBUILabel"; text = "Команд:"; ObjectID = "Lmj-0C-RfS"; */
+"Lmj-0C-RfS.text" = "Команд:";
+
+/* Class = "IBUIBarButtonItem"; title = "Save"; ObjectID = "LwP-mO-hN7"; */
+"LwP-mO-hN7.title" = "Save";
+
+/* Class = "IBUIBarButtonItem"; title = "Cancel"; ObjectID = "MEe-xk-X5l"; */
+"MEe-xk-X5l.title" = "Cancel";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "Mbh-lj-X6n"; */
+"Mbh-lj-X6n.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Названия команд"; ObjectID = "N4p-iA-urd"; */
+"N4p-iA-urd.text" = "Названия команд";
+
+/* Class = "IBUIButton"; normalTitle = "Угадали"; ObjectID = "Peo-kR-TV3"; */
+"Peo-kR-TV3.normalTitle" = "Угадали";
+
+/* Class = "IBUILabel"; text = "Водопад"; ObjectID = "QW0-BE-qqo"; */
+"QW0-BE-qqo.text" = "Водопад";
+
+/* Class = "IBUILabel"; text = "Категория:"; ObjectID = "RVn-Ls-MP6"; */
+"RVn-Ls-MP6.text" = "Категория:";
+
+/* Class = "IBUIButton"; normalTitle = " Игра"; ObjectID = "Utv-PH-IGL"; */
+"Utv-PH-IGL.normalTitle" = " Игра";
+
+/* Class = "IBUIButton"; normalTitle = "Правила"; ObjectID = "XN8-Wm-bQM"; */
+"XN8-Wm-bQM.normalTitle" = "Правила";
+
+/* Class = "IBUILabel"; text = "Названия команд:"; ObjectID = "XhO-Yr-9lD"; */
+"XhO-Yr-9lD.text" = "Названия команд:";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "aW3-pS-ghN"; */
+"aW3-pS-ghN.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Слов в раунде"; ObjectID = "blq-ZJ-EPg"; */
+"blq-ZJ-EPg.text" = "Слов в раунде";
+
+/* Class = "IBUIButton"; normalTitle = " Игра"; ObjectID = "cMZ-ew-F8I"; */
+"cMZ-ew-F8I.normalTitle" = " Игра";
+
+/* Class = "IBUINavigationItem"; title = "Команды"; ObjectID = "edY-Wi-Ksg"; */
+"edY-Wi-Ksg.title" = "Команды";
+
+/* Class = "IBUIButton"; normalTitle = "Старт"; ObjectID = "jD9-vm-ppB"; */
+"jD9-vm-ppB.normalTitle" = "Старт";
+
+/* Class = "IBUINavigationItem"; title = "Игра"; ObjectID = "mJI-eK-HsH"; */
+"mJI-eK-HsH.title" = "Игра";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "p3P-Cx-Cpw"; */
+"p3P-Cx-Cpw.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Длительность раунда"; ObjectID = "rRX-rW-aed"; */
+"rRX-rW-aed.text" = "Длительность раунда";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "sgr-oe-5oc"; */
+"sgr-oe-5oc.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "Язык"; ObjectID = "TDY-X1-0eN"; */
+"TDY-X1-0eN.text" = "Язык";
+
+/* Class = "IBUILabel"; text = "Раунд "; ObjectID = "uJc-2M-v2g"; */
+"uJc-2M-v2g.text" = "Раунд ";
+
+/* Class = "IBUINavigationItem"; title = "Редактировать"; ObjectID = "vok-b9-6eD"; */
+"vok-b9-6eD.title" = "Редактировать";
+
+/* Class = "IBUITableViewSection"; headerTitle = " "; ObjectID = "vwN-eC-7NA"; */
+"vwN-eC-7NA.headerTitle" = " ";
+
+/* Class = "IBUILabel"; text = "Категория"; ObjectID = "yKJ-rY-voz"; */
+"yKJ-rY-voz.text" = "Категория";
+
+/* Class = "IBUILabel"; text = "Осталось слов:"; ObjectID = "yWf-8v-yll"; */
+"yWf-8v-yll.text" = "Осталось слов:";

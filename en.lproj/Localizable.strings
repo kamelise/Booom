@@ -1,0 +1,75 @@
+/* 
+  Localizable.strings
+  Booom
+
+  Created by Samka on 07/10/14.
+  Copyright (c) 2014 kamelise. All rights reserved.
+*/
+
+"Game" = "Game";
+"Settings" = "Settings";
+"Rules" = "Rules";
+"Back" = "Back";
+"TeamsPlaying" = "Teams: %@";
+"TeamNames" = "Team Names";
+"Category" = "Category: %@";
+"WordsPerRound" = "Words per round: %@";
+"RoundDuration" = "Round duration: %@";
+"Done" = "Done";
+"GotIt" = "Got it!";
+"RulesDescription" = "Funny game for a company of friends \"Booom\", is a modification of a game \"Crocodile\", \"Show off\" created for iPhone, it will help you to spend time joyfully.\nYou don't have to think up words or watch the time, calculation of points is also automatic.\nFunny game for a company of friends \"Booom\", is a modification of a game \"Crocodile\", \"Show off\" created for iPhone, it will help you to spend time joyfully.\nYou don't have to think up words or watch the time, calculation of points is also automatic.\nFunny game for a company of friends \"Booom\", is a modification of a game \"Crocodile\", \"Show off\" created for iPhone, it will help you to spend time joyfully.\nYou don't have to think up words or watch the time, calculation of points is also automatic.\nFunny game for a company of friends \"Booom\", is a modification of a game \"Crocodile\", \"Show off\" created for iPhone, it will help you to spend time joyfully.\nYou don't have to think up words or watch the time, calculation of points is also automatic.\nFunny game for a company of friends \"Booom\", is a modification of a game \"Crocodile\", \"Show off\" created for iPhone, it will help you to spend time joyfully.\nYou don't have to think up words or watch the time, calculation of points is also automatic.\n";
+
+
+"Language" = "Language";
+"WordsLeft" = "Words left: %i";
+"Round" = "Round %i";
+"PlayTurn" = "Plays Team: %@";
+"Start" = "Start";
+"Guessed" = "Guessed";
+"NextRound" = "Next Round";
+"Won" = "The winner is: %@";
+"Winners are:" = "The winners are: %@";
+"EndGame" = "End Game";
+
+"ChooseCategory" = "Choose Category:";
+"ChooseLanguage" = "Choose Language:";
+"Cancel" = "Cancel";
+
+"simpleWords" = "Simple words";
+"popularPersons" = "Popular persons";
+"popStage" = "Pop stage";
+"actors" = "Actors";
+"writers" = "Writers";
+"animals" = "Animals";
+
+"Team 1" = "Team 1";
+"Team 2" = "Team 2";
+"Team %d" = "Team %d";
+
+"English" = "English";
+"Russian" = "Russian";
+
+"LanguageAlertTitle" = "Restart is required";
+"LanguageAlertText" = "You will have to restrat your app in order for changes to take effect.";
+"LanguageAlertCancelTitle" = "OK";
+
+"RoundOneShortDescription" = "Explain the word verbously";
+"RoundTwoShortDescription" = "Show the word silently";
+"RoundThreeShortDescription" = "Explain the word using another ONE word only";
+
+"exitTitle" = "";
+"exitMessage" = "Are you sure you want to end current game?";
+"exitCancelTitle" = "No";
+"exitOKTitle" = "Yes";
+
+"endRoundTitle" = "";
+"endRoundMessage" = "Are you sure you want to end your turn?";
+"endRoundCancelTitle" = "No";
+"endRoundOKTitle" = "Yes";
+
+"noInternetTitle" = "";
+"noInternetMessage" = "There is a problem with your internet connection. Please try again later.";
+"noInternetCancelTitle" = "Cancel";
+"noInternetOKTitle" = "Retry";
+
+//"" = "";
