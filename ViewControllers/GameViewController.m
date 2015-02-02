@@ -45,35 +45,6 @@
 //    [self.numberTeams boldSubstring:[self.gameSettings.numberTeams stringValue]];
     [self.numberTeams colorSubstring:[self.gameSettings.numberTeams stringValue] withColor:[UIColor darkGrayColor]];
     
-    /*
-     NSString *labelText = [NSString stringWithFormat:NSLocalizedString(@"TeamsPlaying", nil), [self.gameSettings.numberTeams stringValue]];
-     NSString *tempString = [NSString stringWithFormat:NSLocalizedString(@"TeamsPlaying", nil), @""];
-    //NSLog(@"%@",tempString);
-    //NSLog(@"%lu",tempString.length);
-    unsigned long len = tempString.length;
-     NSRange range = NSMakeRange(0,len-1);
-     
-     const CGFloat fontSize = 14;
-     UIFont *boldFont = [UIFont boldSystemFontOfSize:fontSize];
-     UIFont *regularFont = [UIFont systemFontOfSize:fontSize];
-     UIColor *foregroundColor = [UIColor blackColor];
-     
-     // Create the attributes
-     NSDictionary *boldAttrs = [NSDictionary dictionaryWithObjectsAndKeys:
-     boldFont, NSFontAttributeName,
-     foregroundColor, NSForegroundColorAttributeName, nil];
-     NSDictionary *regAttrs = [NSDictionary dictionaryWithObjectsAndKeys:
-     regularFont, NSFontAttributeName, nil];
-     
-     // Create the attributed string (text + attributes)
-     NSMutableAttributedString *attributedText =
-     [[NSMutableAttributedString alloc] initWithString:labelText
-     attributes:boldAttrs];
-     [attributedText setAttributes:regAttrs range:range];
-     
-     // Set it in our UILabel and we are done!
-     self.numberTeams.attributedText = attributedText;
-     */
     
     
     self.categoryName.text = [NSString stringWithFormat:NSLocalizedString(@"Category", nil), NSLocalizedString(self.gameSettings.categoryName, nil)];
@@ -97,24 +68,9 @@
 
     self.teamDetails.delegate = self;
     self.teamDetails.dataSource = self;
-    /*
-    self.teamDetails.frame = CGRectMake(160,
-                                        175,
-                                        140,
-                                        self.gameSettings.teamDetails.count*CELL_HEIGHT_TEAM_NAMES);
-
-    [self.gameButton setY:MAX(175+ceilf(self.gameSettings.teamDetails.count*CELL_HEIGHT_TEAM_NAMES), 345)+20];
-    float secondColumnHeight = 40+5+self.gameSettings.teamDetails.count*CELL_HEIGHT_TEAM_NAMES+20+40;
-    if (CGRectGetMaxY(self.gameButton.frame) > self.view.height-60) {
-
-        [self.teamNames setY:64 + (self.view.height - 64 - secondColumnHeight)/2];
-        [self.teamDetails setY:CGRectGetMaxY(self.teamNames.frame)+5];
-        [self.gameButton setY:CGRectGetMaxY(self.teamDetails.frame)+10];
-    }*/
-        
+    
     [self.teamDetails reloadData];
     
-    //[self.view addSubview:self.teamDetails];
 }
 
 - (void)didReceiveMemoryWarning
@@ -144,10 +100,7 @@
     // Configure the cell...
     
     cell.textLabel.text = (self.gameSettings.teamDetails)[indexPath.row];
-    /*cell.textLabel.font = [UIFont systemFontOfSize:14.0f];
-    cell.textLabel.textAlignment = NSTextAlignmentRight;
-    cell.textLabel.textColor = [UIColor lightGrayColor];*/
-    //NSLog(@"%@",(self.gameSettings.teamDetails)[indexPath.row]);
+
     return cell;
 }
 
