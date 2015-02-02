@@ -10,6 +10,7 @@
 #import "GetWordsDatabase.h"
 #import "Constants.h"
 #import "UIView+FrameAdditions.h"
+#import "UILabel+Boldify.h"
 #import "TeamListGameVCCell.h"
 
 #define CELL_HEIGHT_TEAM_NAMES 30.0f
@@ -41,9 +42,48 @@
     }
     
     self.numberTeams.text = [NSString stringWithFormat:NSLocalizedString(@"TeamsPlaying", nil), [self.gameSettings.numberTeams stringValue]];
+//    [self.numberTeams boldSubstring:[self.gameSettings.numberTeams stringValue]];
+    [self.numberTeams colorSubstring:[self.gameSettings.numberTeams stringValue] withColor:[UIColor darkGrayColor]];
+    
+    /*
+     NSString *labelText = [NSString stringWithFormat:NSLocalizedString(@"TeamsPlaying", nil), [self.gameSettings.numberTeams stringValue]];
+     NSString *tempString = [NSString stringWithFormat:NSLocalizedString(@"TeamsPlaying", nil), @""];
+    //NSLog(@"%@",tempString);
+    //NSLog(@"%lu",tempString.length);
+    unsigned long len = tempString.length;
+     NSRange range = NSMakeRange(0,len-1);
+     
+     const CGFloat fontSize = 14;
+     UIFont *boldFont = [UIFont boldSystemFontOfSize:fontSize];
+     UIFont *regularFont = [UIFont systemFontOfSize:fontSize];
+     UIColor *foregroundColor = [UIColor blackColor];
+     
+     // Create the attributes
+     NSDictionary *boldAttrs = [NSDictionary dictionaryWithObjectsAndKeys:
+     boldFont, NSFontAttributeName,
+     foregroundColor, NSForegroundColorAttributeName, nil];
+     NSDictionary *regAttrs = [NSDictionary dictionaryWithObjectsAndKeys:
+     regularFont, NSFontAttributeName, nil];
+     
+     // Create the attributed string (text + attributes)
+     NSMutableAttributedString *attributedText =
+     [[NSMutableAttributedString alloc] initWithString:labelText
+     attributes:boldAttrs];
+     [attributedText setAttributes:regAttrs range:range];
+     
+     // Set it in our UILabel and we are done!
+     self.numberTeams.attributedText = attributedText;
+     */
+    
+    
     self.categoryName.text = [NSString stringWithFormat:NSLocalizedString(@"Category", nil), NSLocalizedString(self.gameSettings.categoryName, nil)];
+//    [self.categoryName boldSubstring:NSLocalizedString(self.gameSettings.categoryName, nil)];
+    [self.categoryName colorSubstring:NSLocalizedString(self.gameSettings.categoryName, nil) withColor:[UIColor darkGrayColor]];
+    [self.categoryName colorSubstring:NSLocalizedString(self.gameSettings.categoryName, nil) withColor:[UIColor darkGrayColor]];
     //NSLog(@"%@",self.gameSettings.categoryName);
     self.wordsNumber.text = [NSString stringWithFormat:NSLocalizedString(@"WordsPerRound", nil), [self.gameSettings.wordsNumber stringValue]];
+//    [self.wordsNumber boldSubstring:[self.gameSettings.wordsNumber stringValue]];
+    [self.wordsNumber colorSubstring:[self.gameSettings.wordsNumber stringValue] withColor:[UIColor darkGrayColor]];
     
     int intSeconds = [self.gameSettings.roundDuration intValue] % 60;
     int intMinutes = ([self.gameSettings.roundDuration intValue] - intSeconds) / 60;
@@ -52,7 +92,8 @@
     NSString *roundDuration = [[minutes stringByAppendingString:@":"] stringByAppendingString:seconds];
     
     self.roundDuration.text = [NSString stringWithFormat:NSLocalizedString(@"RoundDuration", nil), roundDuration];
-    
+    //[self.roundDuration boldSubstring:roundDuration];
+    [self.roundDuration colorSubstring:roundDuration withColor:[UIColor darkGrayColor]];
 
     self.teamDetails.delegate = self;
     self.teamDetails.dataSource = self;

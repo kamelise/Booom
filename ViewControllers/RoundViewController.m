@@ -8,6 +8,7 @@
 
 #import "RoundViewController.h"
 #import "Game.h"
+#import "UILabel+Boldify.h"
 
 @interface RoundViewController ()
 
@@ -54,6 +55,7 @@
             self.game.wordsLeft = [Game shuffleArray:self.game.wordsLeft];
             self.game.roundNumber = @(self.game.roundNumber.intValue + 1);
             self.roundNumber.text = [NSString stringWithFormat:NSLocalizedString(@"Round", nil), [self.game.roundNumber intValue]];
+            
             //NSLog(@"roundVC. round # is %@",self.game.roundNumber);
             [Game saveGame:self.game];
             //[self performSegueWithIdentifier:@"showResults" sender:self];
@@ -62,7 +64,7 @@
     }
     
     
-        self.roundNumber.text = [NSString stringWithFormat:NSLocalizedString(@"Round", nil), [self.game.roundNumber intValue]];
+        //self.roundNumber.text = [NSString stringWithFormat:NSLocalizedString(@"Round", nil), [self.game.roundNumber intValue]];
         //NSLog(@"RoundVC. Раунд %@", self.game.roundNumber);
     
         self.wordsLeftNumber.text = [NSString stringWithFormat:NSLocalizedString(@"WordsLeft", nil), (int)self.game.wordsLeft.count];
@@ -96,6 +98,7 @@
     if (!self.game) {
         NSLog(@"how did you get to that page?");
     }
+
     self.roundNumber.text = [NSString stringWithFormat:NSLocalizedString(@"Round", nil), self.game.roundNumber.intValue];
     //NSLog(@"RoundVC. Раунд %@", self.game.roundNumber);
     NSString *currentTeam = [[self.game.scores objectAtIndex:[self.game.currentTeam integerValue]] objectForKey:@"teamName"];

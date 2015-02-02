@@ -8,11 +8,13 @@
 
 //#import <UIKit/UIKit.h>
 #import "GameSettings.h"
+#import "CellWithPickerView.h"
 #import "Teams.h"
 
 @interface SettingsViewController : UITableViewController <UIActionSheetDelegate, UIPickerViewDataSource, UIPickerViewDelegate> {
     NSArray *_wordsNumberPickerData;
 }
+@property (strong, nonatomic) IBOutlet CellWithPickerView *teamsNumber;
 
 @property (strong, nonatomic) GameSettings *gameSettings;
 @property (strong, nonatomic) NSArray *categoryArray;

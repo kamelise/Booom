@@ -96,6 +96,8 @@ typedef NS_ENUM(NSInteger, UIActionSheetChosen) {
     [self.durationPicker setDelegate:self];
     self.durationPicker.showsSelectionIndicator = YES;
     [self.durationPicker selectRow:([self.gameSettings.roundDuration intValue] - 10)/5 inComponent:0 animated:YES];
+    
+    //[self.teamsNumber initPickerView];
 }
 
 -(void)viewWillAppear:(BOOL)animated {
@@ -132,6 +134,7 @@ typedef NS_ENUM(NSInteger, UIActionSheetChosen) {
     switch (indexPath.section) {
         case 0:
             [self showTeamsPickerView:self];
+            //[self.teamsNumber showPickerView];
             break;
         case 1:
             
